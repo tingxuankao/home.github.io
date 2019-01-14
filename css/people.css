@@ -1,0 +1,104 @@
+.bg {
+    background-color: cadetblue;
+    height: 400px;
+}
+
+#img1 {
+    position: absolute;
+    width: 1110px;
+    height: 340px;
+    z-index: 1;
+    box-shadow: 3px 3px 12px rgba(7, 7, 7, 0.267);
+}
+
+#img2 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 450px;
+    z-index: 2;
+}
+
+.info {
+    margin-right: 5em;
+    float: left;
+    margin-left: 2em;
+    margin-top: 1em;
+    font-size: 60%;
+}
+
+.row .col-sm-12 {
+    background-color: rgba(248, 247, 246, 0.562);
+    padding: 50px;
+    box-shadow: 3px 3px 10px rgba(7, 7, 7, 0.267);
+    height: 400px;
+    margin-top: 20px;
+}
+
+.dropdown-menu a:hover {
+    color: white;
+    background-color: rgba(105, 105, 105, 0.637);
+    text-decoration: underline;
+}
+
+.footer {
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    bottom: 0;
+    background-color: rgba(56, 56, 56, 0.801);
+    box-shadow: 3px 3px 12px rgba(7, 7, 7, 0.267);
+}
+
+.footer .col-sm-1 {
+    margin-top: 50px;
+}
+
+.footer .col-sm-4 {
+    font-size: 13px;
+    margin-top: 80px;
+}
+
+.footer .col-sm-4 a {
+    color: black;
+}
+
+.footer .col-sm-4 a:hover {
+    text-decoration: underline;
+    background-color: #fafafa;
+    color: rgb(179, 179, 179);
+}
+
+.footer .col-sm-5 {
+    font-size: 13px;
+    margin-top: 80px;
+}
+
+.footer .col-sm-5 a:hover {
+    text-decoration: underline;
+    background-color: #fafafa;
+    color: rgb(179, 179, 179);
+}
+
+.footer .col-sm-5 a {
+    color: black;
+}
+
+.footer .content {
+    margin: 0 auto;
+    font-size: 13px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.footer .content a p {
+    color: black;
+}
+
+.footer .content a:hover {
+    text-decoration: underline;
+    background-color: #fafafa;
+    color: rgb(179, 179, 179);
+}
